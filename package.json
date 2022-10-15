@@ -1,0 +1,13 @@
+{
+  "name": "base-react",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "lint": "node scripts/lint.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "markdownlint": "0.26.2"
+  }
+}
