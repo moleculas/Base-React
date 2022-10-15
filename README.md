@@ -107,7 +107,6 @@ Es una biblioteca muy popular y es usada por muchas empresas como Facebook, Netf
 
 Enlaces de interés:
 
-- [Curso de React.js](https://midu.link/react)
 - [Documentación oficial de React en Español](https://es.reactjs.org/)
 - [Introduction to React.js de Facebook (2013)](https://www.youtube.com/watch?v=XxVg_s8xAms)
 
@@ -286,7 +285,7 @@ Para usarlo, indicamos el nombre del componente y le pasamos las props que quere
 
 ```jsx
 <Button text="Haz clic aquí" />
-<Button text="Seguir a @midudev" />
+<Button text="Botón" />
 ```
 
 Las props son una forma de parametrizar nuestros componentes igual que hacemos con las funciones. Podemos pasarle cualquier tipo de dato a un componente, incluso otros componentes.
@@ -852,10 +851,6 @@ Aunque no hay una respuesta clara a esta pregunta, normalmente los componentes f
 Además, **los hooks solo se pueden usar en los componentes funcionales**. Esto es importante, ya que con la creación de custom hooks podemos reutilizar la lógica y podría simplificar nuestros componentes.
 
 Por otro lado, los componentes de clase nos permiten usar el ciclo de vida de los componentes, algo que no podemos hacer con los componentes funcionales donde solo podemos usar `useEffect`.
-
-**Referencias:**
-
-- [Tweet de midudev donde muestra que los componentes funcionales se transpilan mejor que los de clases.](https://twitter.com/midudev/status/1065516163856310272)
 
 **[⬆ Volver a índice](#índice)**
 
